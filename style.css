@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    height: 7vh;
+}
+.bg{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    min-width: 700px;
+
+}
+.nav{
+    background-color: none;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(248 249 250 / 0%) !important;
+}
+#box-p1{
+    background-color: rgba(0, 0, 0, 0.521);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 30px;
+}
